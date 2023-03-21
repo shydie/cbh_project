@@ -18,32 +18,32 @@ You will be graded on the level of detail in each ticket, the clarity of the exe
 ## Your Breakdown Here
 
 Design#1
-Title: Make possible for facilities create and save custom Ids for Agent
-Description: Add editable field with the custom Agent's Id for Facilities plus Error handling on save
-Estimate 2
+- Title: Make possible for facilities create and save custom Ids for Agent
+- Description: Add editable field with the custom Agent's Id for Facilities plus Error handling on save
+- Estimate 3
 
 Web#1
-Title: Make possible for facilities create and save custom Ids for Agent
-Description: We need to provide Facilities with ability to create and store Agent's custom Id. Add field according to the design
-Acceptance criteria: User can edit and save Agent's custom id. On save error must be handled with the alerts
-Estimate: 3
+- Title: Make possible for facilities create and save custom Ids for Agent
+- Description: We need to provide Facilities with ability to create and store Agent's custom Id. Add field according to the design
+- Acceptance criteria: User can edit and save Agent's custom id. On save error must be handled with the alerts
+- Estimate: 3
 
 Backend#1
-Title: Make possible for facilities create and save custom Ids for Agent
-Description: We need to provide Facilities with ability to create and store Agent's custom Id. Update/Delete might be added further
-Acceptance criteria: Agent's custom Id can be provided from the client and stored in the Agent's database.
-Estimate 3-5
+- Title: Make possible for facilities create and save custom Ids for Agent
+- Description: We need to provide Facilities with ability to create and store Agent's custom Id. Update/Delete might be added further
+- Acceptance criteria: Agent's custom Id can be provided from the client and stored in the Agent's database.
+- Estimate 5
 
 Backend#2
-Title: Agent's metadata must be updated with the custom Id
-Description: Custom_id must be added to the Agent's metadata received within the Shift
-Acceptance criteria: Agent's metadata must be updated with the custom Id
-BlockedBy: Backend#1
-Estimate 2
+- Title: Agent's metadata must be updated with the custom Id
+- Description: Custom_id must be added to the Agent's metadata received within the Shift
+- Acceptance criteria: Agent's metadata must be updated with the custom Id
+- BlockedBy: Backend#1
+- Estimate 3
 
 Backend#3
-Title: Generate report with the new Agents custom Id
-Description: We need to generate Reports with the Agent's custom Id keeped in the Shift metadata
-BlockedBy: Backend#2
-Acceptance criteria: Reports are generating with the Agent's custom id
-Estimate 2
+- Title: Generate report with the new Agents custom Id
+- Description: We need to generate Reports with the Agent's custom Id keeped in the Shift metadata
+- BlockedBy: Backend#2
+- Acceptance criteria: Reports are generating with the Agent's custom id
+- Estimate 2
